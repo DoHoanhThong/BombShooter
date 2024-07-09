@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.your.package.name"> <!-- Thay thế bằng tên gói của bạn -->
+
+    <application>
+        <activity android:name="com.unity3d.player.UnityPlayerActivity" 
+                  android:screenOrientation="sensorLandscape">
+            <!-- Đảm bảo rằng android:screenOrientation được đặt chính xác theo mong muốn của bạn -->
+        </activity>
+    </application>
+
+</manifest>
